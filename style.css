@@ -6,7 +6,10 @@
 .all {
 
     background-color: beige;
+
 }
+
+
 
 .title {
     
@@ -14,6 +17,12 @@
     font-family: 'League Script', cursive;
     font-size: 40px;  
     color : purple
+}
+
+.etch
+{
+    display: flex;
+    justify-content: center;
 }
 .container{
 
@@ -24,10 +33,10 @@
 #board{
 
     background-color: white;
-    height: 500px;
+    min-height: 500px;
     width: 450px;
     margin-top: 80px;
-    margin-left: px;
+    margin-bottom: 20px;
     border: 30px solid rgba(0, 0, 0, 0.83);
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), auto-fill, 1fr);
@@ -47,9 +56,12 @@
 
 .content
 {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.714);
+    opacity: 0.85;
     display: flex;
+    min-width: 900px;
     justify-content: center;
+    border-radius: 20px;
     
 }
 .tools
